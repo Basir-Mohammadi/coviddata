@@ -40,6 +40,19 @@
   }
 }
 
+.details-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 2rem;
+}
+
 .all-countries {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -157,6 +170,7 @@
 
   .details-nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-family: 'Noto Sans', sans-serif;
     margin-bottom: 10px;

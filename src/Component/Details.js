@@ -16,20 +16,21 @@ function Details() {
 
   return (
     <div className="details-container" data-testid="detailsdiv">
-      <div className="details-nav">
+      <div className="details-nav nav-bar">
         <Link to="/">
           <FaArrowLeft />
         </Link>
         <p>COUNTRY DATA</p>
+        <div className="nav-right">
+          <p>
+            <FaMicrophoneAlt />
+          </p>
 
-        <p>
-          <FaMicrophoneAlt />
-        </p>
+          <p>
+            <AiFillSetting />
 
-        <p>
-          <AiFillSetting />
-
-        </p>
+          </p>
+        </div>
 
       </div>
       <div className="imagedetails">
