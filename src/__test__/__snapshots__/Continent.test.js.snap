@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continents render correctly 1`] = `
+<div
+  style={
+    Object {
+      "overflow": "none",
+    }
+  }
+>
+  <div
+    className="carousel slide carousel-fade"
+    onKeyDown={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="carousel-indicators"
+    >
+      <button
+        aria-current={true}
+        aria-label="Slide 1"
+        className="active"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-current={false}
+        aria-label="Slide 2"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-current={false}
+        aria-label="Slide 3"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-current={false}
+        aria-label="Slide 4"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-current={false}
+        aria-label="Slide 5"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        aria-current={false}
+        aria-label="Slide 6"
+        data-bs-target=""
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+    <div
+      className="carousel-inner"
+    >
+      <div
+        className="active carousel-item"
+      >
+        <img
+          alt="stock"
+          className="d-block"
+          src="africa.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            AFRICA
+          </h3>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt="stock"
+          className="d-block"
+          src="asia.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            ASIA
+          </h3>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt="stock"
+          className="d-block"
+          src="europe.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            EUROPE
+          </h3>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt="stock"
+          className="d-block"
+          src="australia.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            AUSTRALIA
+          </h3>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt="stock2"
+          className="d-block"
+          src="north.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            NORTH AMERICA
+          </h3>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt="stock4"
+          className="d-block"
+          src="south.png"
+        />
+        <div
+          className="carousel-caption"
+        >
+          <h3>
+            SOUTH AMERICA
+          </h3>
+        </div>
+      </div>
+    </div>
+    <a
+      className="carousel-control-prev"
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-prev-icon"
+      />
+      <span
+        className="visually-hidden"
+      >
+        Previous
+      </span>
+    </a>
+    <a
+      className="carousel-control-next"
+      href="#"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-next-icon"
+      />
+      <span
+        className="visually-hidden"
+      >
+        Next
+      </span>
+    </a>
+  </div>
+</div>
+`;
