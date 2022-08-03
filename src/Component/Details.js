@@ -66,8 +66,7 @@ function Details() {
       <div className="imagedetails">
         <p className="noto">POPULATION</p>
         <p className="card-text">
-          {countries[index].continents}
-
+          {countries[index].area.toLocaleString()}
         </p>
 
       </div>
@@ -82,7 +81,7 @@ function Details() {
       <div className="imagedetails">
         <p className="noto">AREA</p>
         <p className="card-text">
-          {countries[index].area.toLocaleString()}
+          {countries[index].continents}
 
         </p>
 
