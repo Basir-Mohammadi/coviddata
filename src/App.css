@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@200;300&family=Josefin+Sans:wght@100&family=Kanit:ital,wght@1,300;1,400&family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Mouse+Memoirs&family=Noto+Sans:wght@700&family=Roboto+Mono:ital,wght@1,500&family=Roboto+Slab&display=swap');
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,154 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.all-countries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fa0491;
+  padding-left: 7%;
+}
+
+.image-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.more-details {
+  text-decoration: none;
+}
+
+.big {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  background-color: #da007b;
+  width: 28rem;
+  height: 18rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.big:hover {
+  color: whitesmoke;
+}
+
+#search {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fa0491;
+}
+
+.d-block {
+  width: 100%;
+  height: 50vh;
+}
+
+.flag {
+  width: 28rem;
+  height: 13rem;
+}
+
+.name-population {
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+#coat {
+  height: 20%;
+  width: 20%;
+}
+
+.details-container {
+  background-color: #fa0491;
+  height: 100%;
+  color: white;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.imagedetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.breakdown {
+  background-color: #8d0050;
+}
+
+@media only screen and (max-width: 740px) {
+  .big {
+    width: 100%;
+    height: 12rem;
+    margin-left: 0;
+  }
+
+  .flag {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .all-countries {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    background-color: #fa0491;
+  }
+
+  .imagedetails {
+    margin-bottom: 5px;
+  }
+
+  .imagedetails a {
+    color: white;
+  }
+
+  .name-population {
+    text-align: right;
+    font-size: 12px;
+  }
+
+  .details-nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .details-container {
+    height: 100vh;
+  }
+
+  .noto {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .details-nav a {
+    color: white;
+  }
+
+  #coat {
+    height: 60%;
+    width: 30%;
+    margin-left: 10%;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
 }
