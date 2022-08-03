@@ -1,12 +1,12 @@
 import TestRenderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
-import Dragons from '../componets/Dragons';
+import Countries from '../Component/Countries';
 import store from '../redux/configureStore';
 
-it('Dragons renders correctly', () => {
+it('Countries renders correctly', () => {
   const tree = TestRenderer.create(
     <Provider store={store}>
-      <Dragons />
+      <Countries />
     </Provider>,
   ).toJSON();
   expect(tree).toMatchSnapshot();

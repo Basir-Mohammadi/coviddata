@@ -1,12 +1,12 @@
 import TestRenderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
-import Rocket from '../componets/Rocket';
+import Continent from '../Component/Continent';
 import store from '../redux/configureStore';
 
-it('Rocket renders correctly', () => {
+it('Continents render correctly', () => {
   const tree = TestRenderer.create(
     <Provider store={store}>
-      <Rocket />
+      <Continent />
     </Provider>,
   ).toJSON();
   expect(tree).toMatchSnapshot();

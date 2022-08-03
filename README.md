@@ -25,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live]
+[Live](https://covi19track.herokuapp.com/)
 ## Author
 
 👤 **Basir Mohammadi**
@@ -48,9 +48,6 @@ Give a ⭐️ to if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 - Inspiration
 - etc
-
-
-
