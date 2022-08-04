@@ -56,7 +56,7 @@
 .all-countries {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #fa0491;
+  background-color: #04d5fa;
   padding-left: 7%;
 }
 
@@ -75,11 +75,13 @@
   flex-direction: column;
   color: white;
   text-decoration: none;
-  background-color: #da007b;
+  background-color: rgb(218, 0, 182);
   width: 28rem;
   height: 18rem;
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-radius: 5px;
 }
 
 .big:hover {
@@ -89,7 +91,7 @@
 #search {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #fa0491;
+  background-color: rgb(166, 209, 230);
 }
 
 .d-block {
@@ -103,7 +105,8 @@
 }
 
 .name-population {
-  text-align: right;
+  padding-left: 5px;
+  text-align: left;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
@@ -114,7 +117,7 @@
 }
 
 .details-container {
-  background-color: #fa0491;
+  background-color: rgb(166, 209, 230);
   height: 100%;
   color: white;
   font-size: 25px;
