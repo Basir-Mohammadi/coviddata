@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is a website that tracks and show the infected and recovered patients to Covid19 aroung the globe..
+> This is a website that tracks and show the infected and recovered patients to Covid19 around the globe..
 
 
 ## Built With
